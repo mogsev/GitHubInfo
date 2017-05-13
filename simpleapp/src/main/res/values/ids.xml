@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Loaders -->
+    <item name="profile_loader" type="id" />
+
+</resources>

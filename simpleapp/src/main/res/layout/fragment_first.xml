@@ -1,0 +1,51 @@
+<layout xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="result"
+            type="com.mogsev.simpleapp.viewmodel.ResultViewModel" />
+
+        <variable
+            name="profile"
+            type="com.mogsev.simpleapp.viewmodel.ProfileViewModel" />
+
+    </data>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_dp_16"
+        tools:context="com.mogsev.simpleapp.fragment.FirstFragment">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/hello_blank_first_fragment" />
+
+        <TextView
+            android:id="@+id/text_result"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_dp_16"
+            android:gravity="center_horizontal"
+            android:text="@{@string/text_result(result.result)}" />
+
+        <Button
+            android:id="@+id/button_plus"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_plus"
+            app:onClick="@{result.onPlus}" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{@string/text_full_name(profile.firstName, profile.lastName)}"/>
+
+    </LinearLayout>
+
+</layout>

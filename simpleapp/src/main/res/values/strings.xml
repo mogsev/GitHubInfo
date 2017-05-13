@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SimpleApp</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- First fragment -->
+    <string name="hello_blank_first_fragment">Hello blank of first fragment</string>
+    <string name="text_result">Result: %1$o</string>
+    <string name="button_plus">Plus</string>
+    <string name="text_full_name">Full name: %1$s %2$s</string>
+    
+    <!-- Second fragment -->
+    <string name="hello_blank_second_fragment">Hello blank of second fragment</string>
+    <string name="button_minus">Minus</string>
+</resources>
