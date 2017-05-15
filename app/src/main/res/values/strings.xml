@@ -15,7 +15,7 @@
 
     <string name="repository_subscribers_count">Subscribers count: %1$d</string>
     <string name="repository_name">Repo name: %1$s</string>
-    
+
     <string name="search_saver_start_searching">Start searching...</string>
     <string name="subscribers_no_result">No subscribers</string>
     <string name="subscribers_count">Count: %1$d</string>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.mogsev.githubinfo.activity.LoadingDataActivity">
+
+    <fragment
+        android:id="@+id/fragment_first_data"
+        android:name="com.mogsev.githubinfo.fragment.FirstDataFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        tools:layout="@layout/fragment_first_data" />
+
+    <fragment
+        android:id="@+id/fragment_second_data"
+        android:name="com.mogsev.githubinfo.fragment.SecondDataFragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        tools:layout="@layout/fragment_second_data"/>
+
+</LinearLayout>
+
